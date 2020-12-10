@@ -1,4 +1,4 @@
-class ProfessorAdjunto(val quantidadeHorasMonitoria : String, nomeProfessor : String,  sobreNomeProfessor: String,
-                       tempoCasa: Integer, codigoProfessor: Integer) : Professor(nomeProfessor,  sobreNomeProfessor,
-                       tempoCasa, codigoProfessor) {
+class ProfessorAdjunto(val quantidadeHorasMonitoria: Int, nomeProfessor: String, sobreNomeProfessor: String,
+                       codigoProfessor: Int) : Professor(nomeProfessor,  sobreNomeProfessor,
+        quantidadeHorasMonitoria, codigoProfessor) {
 }

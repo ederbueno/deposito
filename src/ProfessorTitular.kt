@@ -1,4 +1,4 @@
-class ProfessorTitular(val escialidade : String, nomeProfessor: String,sobreNomeProfessor : String, tempoCasa : Integer,
-                       codigoProfessor: Integer) :
+class ProfessorTitular(val especialidade: String, nomeProfessor: String, sobreNomeProfessor: String, tempoCasa: Int,
+                       codigoProfessor: Int) :
                        Professor(nomeProfessor, sobreNomeProfessor, tempoCasa, codigoProfessor) {
 }
